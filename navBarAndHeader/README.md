@@ -16,10 +16,7 @@ create a production build:
 npm run build-prod
 
 
-run:
 
-
-npm npm start
 
 
 
