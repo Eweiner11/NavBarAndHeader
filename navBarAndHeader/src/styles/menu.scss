@@ -1,0 +1,13 @@
+.bottom-container{
+    min-height: 50vh;
+    margin-top: 3%;
+}
+
+.drop-down-item{
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.drop-down-item:hover{
+    color:$primary-color;
+    cursor:pointer;
+}

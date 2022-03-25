@@ -1,0 +1,58 @@
+#nav {
+  width: 100vw;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+
+  .nav-item-container {
+    display: flex;
+    align-items: center;
+
+    width: 60%;
+
+    .nav-item {
+      transform: scale(1);
+      
+      margin-left: 4.9%;
+    }
+    .nav-item:hover {
+      color: $primary-color;
+    }
+    .nav-logo {
+      margin-left: 1%;
+    }
+  }
+  .btn-primary {
+    color: $primary-color;
+  }
+
+  .btn-primary::after {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 110%;
+    background: $primary-color;
+    left: -5%;
+    top: 53px;
+  }
+  .btn-secondary {
+    color: $dark-text;
+  }
+  .search-button {
+    display: flex;
+    align-items: center;
+    margin-right: 1vw;
+  }
+.search-active{
+    margin-right: 1vw;
+    width: 100%;
+}
+  .top-container {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid $borders;
+    padding: 2px;
+  }
+  
+}

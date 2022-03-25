@@ -1,0 +1,45 @@
+#header {
+  display: flex;
+  width: 100vw;
+  height: 32px;
+
+  h4 {
+    margin-left: 4px;
+  }
+
+  .header-container {
+    display: flex;
+    background-color: black;
+    width: 100%;
+  }
+
+  .header-item {
+    color: $light-color;
+    height: 100%;
+    margin-left: 2%;
+  }
+  .header-item:hover{
+      cursor:pointer;
+     
+  }
+
+  .language-selector {
+    align-items: center;
+    width: 75vw;
+  }
+
+  .shopping-cart-container {
+    background-color: $primary-color;
+    width: 4%;
+    min-width: 3rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .icon-container {
+    display: flex;
+    margin-right: 1%;
+    justify-content: flex-end;
+    width: 20vw;
+  }
+}

@@ -1,0 +1,39 @@
+.mobile-menu-header {
+  width: 100vw;
+  background-color: black;
+  height: 50px;
+  color: $light-color;
+  margin-top: 0;
+  justify-content: space-between;
+}
+.mobile-menu-item {
+  margin: 0;
+  justify-content: space-between;
+}
+.go-back-btn {
+  background-color: $light-color;
+  margin: 0;
+
+}
+.back-arrow {
+  margin-left: 5vw;
+  padding-right: 1vw;
+}
+
+.left {
+  margin-left: 6vw;
+
+}
+
+.right {
+  margin-right: 6vw;
+
+}
+.bottom-icon {
+  margin-left: 4vw;
+  background-color: #f4f4f4;
+  height: 42px;
+}
+.bottom-icons-container{
+  margin-top: 2vh;
+}
