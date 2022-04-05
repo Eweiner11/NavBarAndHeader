@@ -1,4 +1,4 @@
-reactive nav&Header
+Reactive Navbar & Header
 ## by Eric Weiner
 
 
